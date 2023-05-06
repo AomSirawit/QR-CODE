@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="nav">
+        <span class="nav-toggle" id="js-nav-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <div class="logo">
+            <h1>ITFeature</h1>
+        </div>
+
+        <ul class="nav-ul" id="js-menu">
+            <li class="nav-li"><a href="index.html" class="nav-a">Home</a></li>
+            <li class="nav-li"><a href="about.html"class="nav-a">About</a></li>
+            <li class="nav-li"><a href="contact.html"class="nav-a">Contact</a></li>
+       
+        </ul>     
+    </nav>
+    
+    <div class="container">
+        <div class="head">
+                <h1>QR Code Generator</h1>
+        </div>
+            <div class="info">
+                <input type="text" id="input_text" placeholder="Enter text or url...">
+                <button class="button" type="submit">Generate</button>
+                <div class="qr-code" style="display: none;"></div>
+            </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>aomsirawit.github.io</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
